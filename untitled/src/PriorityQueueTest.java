@@ -3,7 +3,8 @@ import java.util.PriorityQueue;
 
 public class PriorityQueueTest {
     public static void main(String[] args) {
-        PriorityQueue<Integer> p = new PriorityQueue<>(Collections.reverseOrder());
+        PriorityQueue<Integer> p = new PriorityQueue<>(); //최소힙
+        PriorityQueue<Integer> mp = new PriorityQueue<>(Collections.reverseOrder()); //최대힙
         p.add(10);
         p.add(30);
         p.add(400);
@@ -19,10 +20,10 @@ public class PriorityQueueTest {
         // remove 하는데, 큐가 비어있으면 예외 발생한다.
         p.remove();
 
-        // add, offer 모두 삽입이다
-        p.add(3);
+        // 삽입, 큐가 꽉차면 false를 리턴
         p.offer(1);
-
+        // 삽입, 큐가 꽉차면 예외를 발생시킴
+        p.add(3);
 
         p.isEmpty();
     }
