@@ -16,7 +16,7 @@ public class BOJ1927 {
             } else {
                 pq.offer(m);
             }
-            //
+
         }
     }
     static void pollAndPrint() {
