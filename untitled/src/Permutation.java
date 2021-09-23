@@ -1,5 +1,6 @@
 import java.util.Arrays;
 
+// 참고 : https://minhamina.tistory.com/37
 public class Permutation {
     /*
     #순열
