@@ -5,6 +5,7 @@ public class Combination {
     기호 : nCr == n-1Cr-1 + n-1Cr
      */
 
+    // 참고사이트 : https://minhamina.tistory.com/38
     public static void main(String[] args) {
         System.out.println(combination(3, 2)); // 3개 중에서 2개를 뽑는 조합의 경우의 수
 
