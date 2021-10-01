@@ -3,7 +3,7 @@ import java.util.*;
 import java.util.stream.*;
 import static java.util.stream.Collectors.toList;
 
-class Result {
+class Result1 {
 
     /*
      * Complete the 'diagonalDifference' function below.
@@ -36,7 +36,7 @@ class Result {
 
 }
 
-class Solution {
+class Solution1 {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
@@ -56,7 +56,7 @@ class Solution {
             }
         });
 
-        int result = Result.diagonalDifference(arr);
+        int result = Result1.diagonalDifference(arr);
         bufferedReader.close();
     }
 }
