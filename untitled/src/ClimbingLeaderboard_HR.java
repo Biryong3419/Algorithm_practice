@@ -10,7 +10,7 @@ import java.util.stream.*;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
-class Result {
+class Result55 {
 
     /*
      * Complete the 'climbingLeaderboard' function below.
@@ -104,7 +104,7 @@ class Solution {
                 .map(Integer::parseInt)
                 .collect(toList());
 
-        List<Integer> result = Result.climbingLeaderboard(ranked, player);
+        List<Integer> result = Result55.climbingLeaderboard(ranked, player);
 
         bufferedReader.close();
     }
